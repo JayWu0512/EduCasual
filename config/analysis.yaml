@@ -1,0 +1,16 @@
+lookback_windows:
+  - 14
+  - 28
+  - 56
+primary_window: 28
+min_assessments_per_student: 2
+min_score: 0
+max_score: 100
+low_ses_cutoff: 40
+primary_treatment: log_clicks_28d
+outcome: score
+assessment_effect: assessment_group
+heterogeneity_groups:
+  - is_low_ses
+  - is_repeat_student
+  - is_female
