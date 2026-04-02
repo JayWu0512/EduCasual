@@ -4,6 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 data/processed/*.csv
-results/figures/*.png
-results/tables/*.csv
 data/raw/

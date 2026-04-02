@@ -1,0 +1,14 @@
+model,model_code,variable,variable_code,coef,std_error,p_value,nobs,rsquared_within
+Main FE model,main_fe,Pre-assessment engagement (log(1 + clicks in previous 28 days)),log_clicks_28d,1.219222420835314,0.052938476836273,0.0,171241.0,0.016269417802479813
+Nonlinear FE model,nonlinear_fe,Pre-assessment engagement (log(1 + clicks in previous 28 days)),log_clicks_28d,-0.2285993084761732,0.14442024241386917,0.11345191345754269,171241.0,0.020068428623777224
+Nonlinear FE model,nonlinear_fe,Pre-assessment engagement squared ((log(1 + clicks in previous 28 days))^2),log_clicks_28d_sq,0.20151910712336954,0.018511808992228214,0.0,171241.0,0.020068428623777224
+Robustness: 14-day window,alt_window_14d,Pre-assessment engagement (log(1 + clicks in previous 14 days)),log_clicks_14d,0.9216537586660596,0.04351611837552199,0.0,171241.0,0.012048820959798201
+Robustness: cumulative engagement,alt_cumulative,Cumulative engagement (log(1 + cumulative clicks)),cumulative_log_clicks,2.6962558336797047,0.16545426438151253,0.0,171241.0,-0.013106437496724688
+Robustness: non-banked only,clean_non_banked,Pre-assessment engagement (log(1 + clicks in previous 28 days)),log_clicks_28d,1.2667814267153208,0.05422345293418592,0.0,169366.0,0.01719750170431955
+Robustness: coursework only,coursework_only,Pre-assessment engagement (log(1 + clicks in previous 28 days)),log_clicks_28d,1.177808394907412,0.054960956052070575,0.0,166286.0,0.014196614595624046
+Subgroup: lower SES,heterogeneity_is_low_ses,Pre-assessment engagement (log(1 + clicks in previous 28 days)),log_clicks_28d,1.2344276216950112,0.06733796655968749,0.0,171241.0,0.016280586495382
+Subgroup: lower SES,heterogeneity_is_low_ses,Pre-assessment engagement (log(1 + clicks in previous 28 days)) x Lower socioeconomic background,log_clicks_28d_x_is_low_ses,-0.03496208630958472,0.09692669428840357,0.7183193989255054,171241.0,0.016280586495382
+Subgroup: repeat student,heterogeneity_is_repeat_student,Pre-assessment engagement (log(1 + clicks in previous 28 days)),log_clicks_28d,1.2226981514591848,0.05649167966389977,0.0,171241.0,0.01628582462058381
+Subgroup: repeat student,heterogeneity_is_repeat_student,Pre-assessment engagement (log(1 + clicks in previous 28 days)) x Repeat student,log_clicks_28d_x_is_repeat_student,-0.022306783981141002,0.14435004350495273,0.8771900393491361,171241.0,0.01628582462058381
+Subgroup: gender,heterogeneity_is_female,Pre-assessment engagement (log(1 + clicks in previous 28 days)),log_clicks_28d,1.2503445167774154,0.06837975304572315,0.0,171241.0,0.016217807744524193
+Subgroup: gender,heterogeneity_is_female,Pre-assessment engagement (log(1 + clicks in previous 28 days)) x Female,log_clicks_28d_x_is_female,-0.07402965286473015,0.09899136593805817,0.4545581683171962,171241.0,0.016217807744524193

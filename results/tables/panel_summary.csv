@@ -1,0 +1,11 @@
+metric,value
+observations,171241.0
+unique_students,21342.0
+student_course_panels,23322.0
+unique_assessments,188.0
+mean_score,76.02824090025169
+mean_log_clicks_28d,4.84975077574827
+share_low_ses,0.3938659549990948
+share_repeat_student,0.11548636132701864
+share_female,0.4608534171138921
+share_banked,0.010949480556642393
